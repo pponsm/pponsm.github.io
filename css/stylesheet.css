@@ -1,0 +1,31 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #FDFAF3;
+    font-family: ;
+    line-height: ;
+    color: ;
+    max-width: 90rem;
+    margin: 5rem auto;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+
+}
+
+main{
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
