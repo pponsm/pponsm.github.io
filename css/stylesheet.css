@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nixie+One&display=swap');
+
 html {
     font-size: 16px;
 }
 body {
     background-color: #FDFAF3;
-    font-family: ;
+    font-family: josefin sans;
     line-height: ;
-    color: ;
+    color: #395364;
     max-width: 90rem;
     margin: 5rem auto;
 }
@@ -13,11 +15,27 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: nixie one;
 }
 
-nav{
+nav {
 
 }
+
+a {
+    text-decoration: none;
+    margin: 0 0 0 2rem;
+}
+
+a:visited {
+    color: #395364; 
+}
+
+a:hover,
+.selected {
+    color: #E17070;
+}
+
 
 main{
 
@@ -27,5 +45,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
