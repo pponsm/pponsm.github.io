@@ -12,14 +12,20 @@ body {
     margin: 5rem auto;
 }
 header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     font-family: nixie one;
+    font-size: larger;
 }
 
 nav {
+    width: 75%; 
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
+img {
+    max-width: 100%; 
+    max-height: 640px;
 }
 
 a {
@@ -36,13 +42,66 @@ a:hover,
     color: #E17070;
 }
 
+h1, h2 {
+    font-family: nixie one;
+    font-weight: bold;
+}
 
 main{
+    margin: auto; 
+}
 
+section {
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-auto-flow: dense;
 }
 
 footer {
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+#headerlogo {
+    text-align: center;
+    width: 50%; 
+    margin: auto; 
+}
+
+#headerlogo img{
+    width: 50%; 
+}
+
+#tagline {
+    text-align: center;
+    margin: auto;
+    grid-column: 3 / 11;
+}
+
+#about_paragraph {
+    grid-column: 2 / 7;
+}
+
+#portrait {
+    grid-column: 7 / 11;
+}
+
+#project1 {
+    grid-column: 2 / 11;
+}
+
+#project1_img1 {
+    grid-column: 2 / 6;
+}
+
+#project1_img2 {
+    grid-column: 7 / 11;
+}
+
+#project2_img {
+    grid-column: 4 / 10;
 }
