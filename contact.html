@@ -16,8 +16,10 @@
     <body>
         <header>
             <div id="headerlogo">
-                <img src="img/portfolio_logo_main.svg" alt="Paulina Pons Logo">
-                </div>
+                <a href="index.html">
+                    <img src="img/portfolio_logo_main.svg" alt="Paulina Pons Logo">
+                </a>
+            </div>
             <nav>
                 <a href="work.html">
                     <h1>Work</h1>
@@ -31,7 +33,32 @@
             </nav>
         </header>
         <main>
-    
+            <section>
+                <div id="form">
+                    <div id="formheader">
+                        <h1> Want to start a new chapter together? Email me or fill out the form below. </h1>
+                    </div>
+                    <form
+                        action="https://formspree.io/f/xvojlvjl"
+                        method="POST"
+                    >
+                    <label>
+                        Your Name:
+                        <input type="name" name="name">
+                    </label>
+                    <label>
+                        Your Email:
+                        <input type="email" name="email">
+                    </label>
+                    <label>
+                        Your Message:
+                        <textarea name="message"> </textarea>
+                    </label>
+                        <!-- your other form fields go here -->
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </section>
         </main>
         <footer>
             <a href="">
